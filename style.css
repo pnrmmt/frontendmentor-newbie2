@@ -1,0 +1,375 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 1em;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    background-color:  hsl(213, 19%, 18%);
+    padding: 55px;
+    color: hsl(0, 0%, 100%);
+    max-width: 480px;
+    border-radius: 40px;
+   
+    
+    
+}
+
+
+.votebtn{
+    margin-top:30px;
+    background-color: hsl(223, 12%, 23%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-right: 20px;
+    color:hsl(216, 12%, 54%);
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+    font-size: 0.9em;
+    
+   
+}
+
+.subtn{
+    margin-top: 30px;
+    background-color: hsl(25, 97%, 53%);
+    width: 350px;
+    height: 50px;
+    color:white;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.1em;
+
+}
+
+h1{
+    margin-top: 30px;
+}
+
+p{
+    margin-top: 20px;
+    line-height: 25px;
+    color: hsl(216, 12%, 54%)
+}
+
+.votebtn:focus{
+    background-color:  hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%) ;
+}
+.votebtn:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%) ;
+}
+
+.subtn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.containerNew{
+    background-color:  hsl(213, 19%, 18%);
+    padding: 55px;
+    color: hsl(0, 0%, 100%);
+    max-width: 480px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerNew img{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.containerNew p.gray{
+    background-color: hsl(223, 12%, 23%);
+    border-radius: 30px;
+    color:hsl(25, 97%, 53%);
+    display: inline-block;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+.container img{
+    background-color:hsl(223, 12%, 23%) ;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+
+@media only screen and (max-width:596px){
+    .container{
+        padding: 30px;
+        margin:60px 70px;
+        max-width: 320px;
+        
+        
+        
+    }
+
+    .containerNew{
+        padding: 30px;
+        margin:60px 70px;
+        max-width: 350px;
+        
+        
+    }
+
+    .votebtn{
+        margin-right: 7px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 250px;
+    }
+
+}
+@media only screen and (max-width:450px){
+    .container{
+        padding: 30px;
+        margin:60px auto;
+        max-width: 350px;
+        
+    }
+    .containerNew{
+        padding: 30px;
+        margin:60px auto;
+        max-width: 350px;
+        
+    }
+
+    .votebtn{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 265px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:440px){
+    .container{
+        padding: 30px;
+        margin:60px auto;
+        max-width: 350px;
+        
+    }
+    .containerNew{
+        padding: 30px;
+        margin:60px auto;
+        max-width: 350px;
+        
+    }
+
+    .votebtn{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 265px;
+    }
+
+}
+
+@media only screen and (max-width:400px){
+    .container{
+        padding: 30px;
+        margin:60px 70px;
+        max-width: 340px;
+        
+    }
+    .containerNew{
+        padding: 30px;
+        margin:60px 70px;
+        max-width: 340px;
+        
+    }
+
+    .votebtn{
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 250px;
+    }
+    p{
+        font-size: 0.8em;
+    }
+
+
+}
+
+
+@media only screen and (max-width:360px){
+    .container{
+        padding: 30px;
+        margin:60px 30px;
+        max-width: 340px;
+        
+    }
+    .containerNew{
+        padding: 30px;
+        margin:60px 30px;
+        max-width: 340px;
+        
+    }
+
+
+    .votebtn{
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 250px;
+    }
+    p{
+        font-size: 0.8em;
+    }
+
+
+}
+@media only screen and (max-width:320px){
+    .container{
+        padding: 30px;
+        margin:60px 30px;
+        max-width: 230px;
+    
+    }
+    .containerNew{
+        padding: 30px;
+        margin:60px 30px;
+        max-width: 230px;
+        
+    }
+
+    .votebtn{
+        margin-right: 5px;
+        width: 25px;
+        height: 25px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 160px;
+        height: 30px;
+        font-size: 0.7em;
+    }
+
+    h1{
+        font-size: 1em;
+    }
+
+    p{
+        font-size: 0.6em;
+    }
+
+}
+@media only screen and (max-width:310px){
+    .container{
+        padding: 30px;
+        margin:60px 30px;
+        max-width: 250px;
+        
+        
+    }
+    .containerNew{
+        padding: 30px;
+        margin:60px 30px;
+        max-width: 250px;
+    
+    }
+
+    .votebtn{
+        margin-right: 5px;
+        width: 27px;
+        height: 27px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 172px;
+    }
+
+    h1{
+        font-size: 1em;
+    }
+
+    p{
+        font-size: 0.6em;
+    }
+
+}
+@media only screen and (max-width:296px){
+    .container{
+        padding: 30px;
+        margin:60px 60px;
+        max-width: 250px;
+
+    }
+    .containerNew{
+        padding: 30px;
+        margin:60px 60px;
+        max-width: 250px;
+    }
+
+    .votebtn{
+        margin-right: 4px;
+        width: 30px;
+        height: 30px;
+        border-radius: 40px;
+    }
+
+    .subtn{
+        width: 190px;
+    }
+    p{
+        font-size: 0.6em;
+    }
+
+
+}
+
+
+

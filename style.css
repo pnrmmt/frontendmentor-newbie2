@@ -119,6 +119,11 @@ p{
     padding: 15px;
 }
 
+footer{
+    position: fixed;
+    bottom: 0px;
+}
+
 
 
 @media only screen and (max-width:596px){
@@ -370,6 +375,3 @@ p{
 
 
 }
-
-
-

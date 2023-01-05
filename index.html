@@ -30,38 +30,42 @@
 </head>
 
 <body>
-  <div id="container" class="container">
+  <main id="container" class="container">
     <!-- Rating state start -->
     <img src="images/icon-star.svg" alt="">
+    <article>
 
-    <h1> How did we do?</h1>
+      <h1> How did we do?</h1>
 
-    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
-      offering!</p>
-    <div>
-      <button  class="votebtn">1</button>
-      <button  class="votebtn">2</button>
-      <button  class="votebtn">3</button>
-      <button  class="votebtn">4</button>
-      <button  class="votebtn">5</button>
-    </div>
-    <button class="subtn" id="submit">SUBMİT</button>
-
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+        offering!</p>
+      <div>
+        <button class="votebtn">1</button>
+        <button class="votebtn">2</button>
+        <button class="votebtn">3</button>
+        <button class="votebtn">4</button>
+        <button class="votebtn">5</button>
+      </div>
+      <button class="subtn" id="submit">SUBMİT</button>
+    </article>
 
     <!-- Rating state end -->
 
-  </div>
+  </main>
 
   <!-- Thank you state start -->
-  <div id="containerNew" class="containerNew hidden">
+  <main id="containerNew" class="containerNew hidden">
     <img src="images/illustration-thank-you.svg" alt="">
+    <article style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
 
-    <p class="gray">You selected <span id="rating"></span> out of 5</p> 
+      <p class="gray">You selected <span id="rating"></span> out of 5</p>
 
-   <h1> Thank you!</h1>
+      <h1> Thank you!</h1>
 
-  <p> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p> 
-  </div>
+      <p> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
+        touch!</p>
+    </article>
+  </main>
   <!-- Thank you state end -->
 
 
@@ -70,7 +74,7 @@
     Coded by <a href="#">Pınar Mamat</a>.
   </footer>
 
-  
+
   <script src="vote.js"></script>
 </body>
 
